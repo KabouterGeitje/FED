@@ -16,12 +16,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
+Nicole Schilder 
 
 #### Je startniveau:
 Rood
 #### Je focus:
-surface plane
+Responsive
  
 </details>
 
@@ -35,15 +35,15 @@ surface plane
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-[IPR Normag](https://www.iprnormag.nl/)
+[Sumo restaurant](https://restaurantsumo.com/)
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Ervaring pagina  
-<img src="images/ervaring_pagina.png" width="375px" alt="Ervaring pagina">
+<img src="images/sumo_home_page.png" width="375px" alt="Ervaring pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Contact pagina  
-<img src="images/contact_pagina.png" width="375px" alt="Contact Pagina">
+<img src="images/sumo_jobs_page.png" width="375px" alt="Contact Pagina">
  
 </details>
 
