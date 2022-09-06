@@ -38,11 +38,11 @@ Responsive
 [Sumo restaurant](https://restaurantsumo.com/)
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-Ervaring pagina  
+Home pagina  
 <img src="images/sumo_home_page.png" width="375px" alt="Ervaring pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Contact pagina  
+Jobs Pagina  
 <img src="images/sumo_jobs_page.png" width="375px" alt="Contact Pagina">
  
 </details>
