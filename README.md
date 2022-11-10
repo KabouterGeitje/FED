@@ -39,11 +39,11 @@ Responsive
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Home pagina  
-<img src="images/sumo_home_page.png" width="375px" alt="Ervaring pagina">
+<img src="images/sumo_homepage.png" width="375px" alt="Ervaring pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Jobs Pagina  
-<img src="images/sumo_jobs_page.png" width="375px" alt="Contact Pagina">
+<img src="images/sumo_jobspage.png" width="375px" alt="Contact Pagina">
  
 </details>
 
