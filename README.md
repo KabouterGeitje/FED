@@ -57,13 +57,7 @@ Jobs Pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
-
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/breakdownschets.jpg" width="375px" alt="Breakdown schets">
 
 </details>
 
@@ -77,26 +71,23 @@ Jobs Pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb de html af en kan beginnen met de css. Ik maakte me eerst zorgen dat ik de content niet zou kunnen vinden, maar ik heb alles toch kunnen vinden daknzij het inspecteren van de originele website. Ik vond het ook vrij moeilijk om te bepalen hoe de html eruit moest komen te zien. Gelukkig is dit goed gegaan.
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Nicole         |                    |              |                  |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| html bespreken | en dit             | en ik dit    | en dan ik dat    |
+|                | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Nu moet je gewoon verder met je css.
 
 </details>
 
@@ -110,26 +101,23 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb eigenlijk niet echt veel meer gedaan. Ik heb alleen mijn html een beetje aangepast, maar ik moet nog steeds beginnen aan mijn css.
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Nicole         | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| ik heb niks te | en dit             | en ik dit    | en dan ik dat    |
+| bespreken      | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik moet gewoon beginnen met de css.
 
 </details>
 
@@ -146,27 +134,8 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
 #### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Ik ben erachter gekomen dat je met een form de label en input kunt koppelen doormiddel van een id, waardoor het voor screenreaders duidelijk wordt wat 
+de input moet zijn.
 
 </details>
 
@@ -180,26 +149,7 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Ik zit niet zo lekker in mijn vel en daardoor ben ik een tijdje niet op school geweest. Hierdoor heb ik ook niks om te bespreken.
 
 </details>
 
@@ -213,11 +163,12 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-### Screenshot(s)
+Ik heb het eingesprek niet gedaan. Ik ben gegaan voor de herkansing. Dus ik heb voor de rest alles gemaakt in een week. Alles ging vrij okay. De nav was best goed te doen met css. Alleen toen ik bij de slider kwam die ik moest maken, storte alles in elkaar. Ik kreeg het maar niet voor elkaar. Hierdoor werd ik enorm ontmoedigd. Toen heb ik even rust genomen en ben ik de dag erna verder gegaan. Ik heb de slider laten zitten. Vanaf toen ging het best goed. Ik heb de website volledig repsonsive gemaakt. Ik ben wel begonnen met een groot scherm ipv een klein scherm. Ik heb zeker geleerd om dit de volgende keer anders te doen. Ik ben erg vooruit gegaan op het schrijven van comments in mijn code.
 
 hier screenshot(s) van je eindresultaat
+
+<img src="images/eindresultaat1.jpg" width="375px" alt="Ervaring pagina">
+<img src="images/eindresultaat2.jpg" width="375px" alt="Ervaring pagina">
 
 </details>
 
@@ -232,8 +183,6 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://www.w3schools.com/css/css_form.asp (voor het formulier)
 
 </details>
