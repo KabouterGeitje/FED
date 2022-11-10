@@ -1,0 +1,669 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+button,
+summary {
+	cursor: pointer;
+}
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text: #111;
+	--color-background: #ffffff;
+	--color-background-image: #ebedef;
+	--color-background-footer: #E6F4F4;
+	--color-background-deals: #A4D2C8;
+	--color-background-instagram: #FBC6C6;
+	--color-text-footer: #A0A0A0;
+	--color-transparent: transparent;
+	--color-light-grey: rgb(207, 200, 200);
+	--color-orange-button: #F37043;
+	--color-text-form: grey;
+	--color-input-text: rgb(255, 232, 236);
+}
+
+/************/
+/* ALGEMEEN */
+/************/
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+
+	color: var(--color-text);
+	background-color: var(--color-background-image);
+	background-image: url("../images/achtergrond_image.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+
+	font-family: open-sans, sans-serif;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/********/
+/* MAIN */
+/********/
+
+main {
+	width: max(56%, 60em);
+	margin-bottom: 20em;
+	/* zodat je de footer kunt zien aan het eind */
+	background-color: var(--color-background);
+	position: relative;
+	z-index: -5;
+	/* zodat de nav over de main zit */
+	padding-bottom: 5em;
+}
+
+/**********/
+/* DE NAV */
+/**********/
+
+header {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	height: 4em;
+	top: 0;
+	width: max(56%, 60em);
+	background-color: var(--color-background);
+	border-bottom: 1px solid var(--color-background-deals);
+}
+
+header nav {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	width: 100%;
+	padding-left: 2em;
+	padding-right: 2em;
+	background-color: var(--color-background);
+}
+
+header a img:first-of-type {
+	height: 1.5em;
+	background-color: var(--color-background);
+	margin-left: 2em;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	width: inherit;
+	height: 2.5em;
+}
+
+header nav ul li {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+header nav ul li a {
+	font-size: 0.6em;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: var(--color-text);
+	padding-top: 0;
+	padding-bottom: 0;
+	vertical-align: middle;
+}
+
+header button {
+	border: none;
+	background-color: var(--color-transparent);
+}
+
+header nav ul>li:nth-last-of-type(1) {
+	margin-right: 1em;
+	margin-left: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	background-color: var(--color-background-deals);
+}
+
+header nav ul>li:nth-last-of-type(1) a {
+	color: var(--color-background);
+}
+
+header nav ul section {
+	display: flex;
+}
+
+header nav img {
+	position: fixed;
+	visibility: hidden;
+}
+
+/************************************/
+/********** DE SLIDESHOW ************/
+/*Dit is dus geen slideshow geworden*/
+/************************************/
+
+main section:first-of-type section:first-of-type section:first-of-type ul {
+	margin-top: 8%;
+	padding: 0;
+}
+
+main section:first-of-type section:first-of-type section:first-of-type li {
+	width: min(90%, 90em);
+	margin-left: 5%
+}
+
+main section:first-of-type section:first-of-type img {
+	width: 100%;
+}
+
+/***************************/
+/* SECTION NA DE SLIDESHOW */
+/***************************/
+
+/* de gehele sectie */
+main>section:first-of-type>section:nth-child(2) {
+	width: min(90%, 90em);
+	height: 20em;
+	margin-left: 5%;
+	margin-bottom: 20em;
+	/* De grid maakt de section niet groter, dus ik gebruik margin om ervoor te zorgen dat de boel niet overlapt */
+	display: grid;
+}
+
+/* de containers in de sectie */
+main>section:first-of-type>section:nth-child(2) section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-position: center;
+	color: var(--color-background);
+	font-size: larger;
+}
+
+/* de containers met een grijs streepje onder de h2 */
+main>section:first-of-type>section:nth-child(2) section:nth-child(1) h2,
+main>section:first-of-type>section:nth-child(2) section:nth-child(2) h2,
+main>section:first-of-type>section:nth-child(2) section:nth-child(5) h2 {
+	margin-bottom: 3em;
+	border-bottom: 1px solid var(--color-background-deals);
+}
+
+/* de tekst in de containers zonder button */
+main>section:first-of-type>section:nth-child(2) section p {
+	color: var(--color-background);
+	margin: 1em;
+	text-align: center;
+}
+
+/* algemene code voor de buttons in de containers met buttons */
+main>section:first-of-type>section:nth-child(2) section button {
+	padding: 1em;
+	border: none;
+	border-radius: 3px;
+	color: var(--color-background);
+	text-transform: uppercase;
+}
+
+/* code specifiek voor de eerste container */
+main>section:first-of-type>section:nth-child(2) section:nth-child(1) {
+	background-color: var(--color-background-instagram);
+}
+
+main>section:first-of-type>section:nth-child(2) section:nth-child(1) button {
+	background-color: var(--color-orange-button);
+
+}
+
+/* code specifiek voor de tweede container */
+main>section:first-of-type>section:nth-child(2) section:nth-child(2) {
+	background-image: url("../images/afbeelding_the_menu.jpg");
+	background-size: cover;
+}
+
+main>section:first-of-type>section:nth-child(2) section:nth-child(2) button {
+	background-color: var(--color-background-deals);
+}
+
+/* code specifiek voor de derde container */
+main>section:first-of-type>section:nth-child(2) section:nth-child(3) {
+	background-image: url("../images/afbeelding_find_a_sumo.jpg");
+	background-color: var(--color-text-footer);
+	background-blend-mode: multiply;
+	background-size: cover;
+	justify-content: start;
+}
+
+/* code specifiek voor de vierde container */
+main>section:first-of-type>section:nth-child(2) section:nth-child(4) {
+	background-color: var(--color-background-deals);
+	justify-content: start;
+}
+
+/* code specifiek voor de vijfde container */
+main>section:first-of-type>section:nth-child(2) section:nth-child(5) {
+	background-image: url("../images/afbeelding_delivery.jpg");
+	background-color: var(--color-light-grey);
+	background-blend-mode: multiply;
+	background-size: cover;
+	justify-content: start;
+}
+
+main>section:first-of-type>section:nth-child(2) section:nth-child(5) button {
+	background-color: var(--color-background-instagram);
+}
+
+/* code specifiek voor de containers met de h2 elementen met een grijs streepje */
+main>section:first-of-type>section:nth-child(2) section:nth-child(3) h2,
+main>section:first-of-type>section:nth-child(2) section:nth-child(4) h2 {
+	border-bottom: 1px solid var(--color-text-footer);
+}
+
+/*************/
+/* DE FOOTER */
+/*************/
+
+footer {
+	width: max(56%, 60em);
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	height: 20em;
+	bottom: 0;
+	background-color: var(--color-background-footer);
+	z-index: -10;
+}
+
+footer nav {
+	margin-top: 2em;
+}
+
+footer nav ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer article {
+	margin: 2.5em;
+	bottom: 0;
+	position: fixed;
+}
+
+section p,
+article p {
+	font-size: 0.7em;
+	text-transform: none;
+	color: var(--color-text-footer);
+}
+
+footer nav ul li a {
+	font-size: 0.7em;
+	font-weight: 400;
+	text-decoration: none;
+	color: var(--color-text-footer);
+}
+
+/***************/
+/* JOBS PAGINA */
+/***************/
+
+/* bron voor deze pagina: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+
+.jobsMain {
+	background-color: var(--color-background-instagram);
+	padding-top: 5em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: var(--color-text-form);
+}
+
+.jobsMain h1 {
+	color: var(--color-orange-button);
+	margin-top: 10%;
+	margin-bottom: 0;
+}
+
+.jobsMain p:nth-child(2) {
+	width: 50%;
+	text-align: center;
+	color: var(--color-text-form);
+	text-transform: none;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	height: 60em;
+	text-transform: none;
+}
+
+form p {
+	text-align: start;
+}
+
+input[type=submit] {
+	background-color: var(--color-text);
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	text-transform: uppercase;
+}
+
+input[type=text],
+select,
+textarea {
+	margin-bottom: 1.5em;
+	padding: .5em;
+	background-color: var(--color-input-text);
+	border: none;
+}
+
+textarea {
+	height: 20%;
+}
+
+.afdeling, .akkoord {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: start;
+	color: var(--color-text);
+	align-items: baseline;
+}
+
+.akkoord{
+	margin-bottom:2em;
+}
+
+input[type=file]{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	color: var(--color-text);
+	padding-bottom: 1em;
+	margin-bottom: 2em;
+}
+
+
+/*****************/
+/* MEDIA QUERIES */
+/*****************/
+
+@media (max-width: 60em) {
+
+	/**********/
+	/* DE NAV */
+	/**********/
+
+	/* streepjes van de hamburger menu */
+
+	span {
+		grid-row-start: 1;
+		grid-column-start: 1;
+		width: 1.5em;
+		height: .2em;
+		background-color: black;
+	}
+
+	/* eerste streepje */
+	span:nth-of-type(1) {
+		transform: translateY(-.4em);
+	}
+
+	/* tweede streepje */
+	span:nth-of-type(3) {
+		transform: translateY(.4em);
+	}
+
+	/* derde streepje */
+	header {
+		width: max(30%, 38em);
+		border: none;
+	}
+
+	header button {
+		display: grid;
+		place-items: center;
+		margin-left: auto;
+		padding-right: 2.2em;
+		background-color: var(--color-transparent);
+	}
+
+	header nav {
+		width: 300px;
+		height: 100%;
+		flex-direction: column;
+		justify-content: start;
+		align-items: flex-start;
+
+		background-color: var(--color-background-instagram);
+
+		position: fixed;
+		right: 0;
+		top: 0;
+		bottom: 0;
+
+		transform: translatex(100%);
+		transition: transform .3s;
+	}
+
+	nav.toonMenu {
+		transform: translatex(0);
+	}
+
+	header nav button {
+		background-color: var(--color-transparent);
+		position: absolute;
+		top: -1em;
+		right: 1em;
+	}
+
+	header nav ul {
+		flex-direction: column;
+		justify-content: start;
+		align-items: baseline;
+		margin-top: 2.5em;
+	}
+
+	header nav ul li {
+		padding-bottom: 0.7em;
+	}
+
+	header nav ul li a {
+		font-size: 1.2em;
+		font-weight: 600;
+		letter-spacing: -1px;
+		text-decoration: none;
+		color: var(--color-background);
+	}
+
+	header nav ul li:nth-last-of-type(1) {
+		background-color: var(--color-transparent);
+		margin: 0;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+	}
+
+	header nav ul section {
+		margin-top: 125%;
+	}
+
+	header nav img {
+		position: relative;
+		margin-top: 300%;
+		visibility: visible;
+	}
+
+	/********/
+	/* MAIN */
+	/********/
+
+	main {
+		width: max(30%, 38em);
+		margin-bottom: 7em;
+	}
+
+	main section:first-of-type section:first-of-type section:first-of-type ul {
+		margin-top: 15%;
+		padding: 0;
+	}
+
+	/***************************/
+	/* SECTION NA DE SLIDESHOW */
+	/***************************/
+
+	main>section:first-of-type>section:nth-child(2) {
+		grid-template-rows: 20em 20em 20em 10em 20em;
+		margin-bottom: 73em;
+	}
+
+	/*************/
+	/* DE FOOTER */
+	/*************/
+
+	footer {
+		width: max(30%, 38em);
+		height: 10em;
+		margin-bottom: 0;
+	}
+
+	footer nav {
+		visibility: hidden;
+	}
+
+	footer article {
+		position: absolute;
+	}
+
+	/***************/
+	/* JOBS PAGINA */
+	/***************/
+
+	.jobsMain p:nth-child(2) {
+		width: 80%;
+	}
+
+	form {
+		width: 70%;
+	}
+}
+
+@media (max-width: 38em) {
+
+	/********/
+	/* BODY */
+	/********/
+
+	body {
+		background-image: none;
+		background-color: var(--color-background);
+	}
+
+	/**********/
+	/* DE NAV */
+	/**********/
+
+	header {
+		width: max(30%, 20em);
+		border: none;
+	}
+
+	/********/
+	/* MAIN */
+	/********/
+
+	main {
+		width: max(30%, 20em);
+	}
+
+	main section:first-of-type section:first-of-type section:first-of-type ul {
+		margin-top: 20%;
+		padding: 0;
+	}
+
+	/************************************/
+	/********** DE SLIDESHOW ************/
+	/*Dit is dus geen slideshow geworden*/
+	/************************************/
+
+	main section:first-of-type section:first-of-type section:first-of-type li {
+		width: max(30%, 20em);
+		margin-left: 0;
+	}
+
+	/***************************/
+	/* SECTION NA DE SLIDESHOW */
+	/***************************/
+
+	main>section:first-of-type>section:nth-child(2) {
+		width: max(30%, 20em);
+		grid-template-rows: 15em 15em 15em 10em 15em;
+		margin-bottom: 45em;
+		margin-left: 0;
+	}
+
+	main>section:first-of-type>section:nth-child(2) section {
+		font-size: medium;
+	}
+
+	/*************/
+	/* DE FOOTER */
+	/*************/
+
+	footer {
+		width: 100%;
+		height: 7em;
+		position: relative;
+		overflow: hidden;
+	}
+
+	/***************/
+	/* JOBS PAGINA */
+	/***************/
+
+	.jobsMain {
+		font-size: small;
+	}
+
+	.jobsMain h1 {
+		font-size: x-large;
+	}
+
+	input[type=file]{
+		padding-bottom: 2em;
+	}
+}
+
+@media (min-width: 60em) {
+	main>section:first-of-type>section:nth-child(2) {
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(2, 100%);
+	}
+
+	main>section:first-of-type>section:nth-child(2) section:nth-child(2) {
+		grid-column: 2 / 4;
+	}
+}
